@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+'''
+Tic-Tac-Toe game on python3
+    [.]Takes in Players info and tracks their moves.
+    [.]Prints a grid
+E-mail: sohail47k@gmail.com
+Id: sohailshaukat or sohail_shaukat_
+Github: https://www.github.com/sohailshaukat/
+LinkedIn: https://www.linkedin.com/in/sohail-selod-9a5b83162/
+'''
 import random
 def players_info():
     player1_name=input("[+]Enter the name for player 1:")
@@ -49,7 +58,6 @@ def move(grid,sign):
     return grid
 
 def check_victory(grid, sign):
-    #for x
     if grid[0] == sign and grid[1] == sign and grid[2] == sign:
         return True
     elif grid[3] == sign and grid[4] == sign and grid[5] == sign:
