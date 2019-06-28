@@ -12,7 +12,7 @@ import random
 def players_info():
     player1_name=input("[+]Enter the name for player 1:")
     player2_name=input("[+]Enter the name for player 2:")
-    print(f"[+]Player 1: {player1_name} \nPlayer 2: {player2_name}")
+    print(f"[+]Player 1: {player1_name} \n[+]Player 2: {player2_name}")
     return player1_name,player2_name
 
 def first_player_choice(player1_name,player2_name):
